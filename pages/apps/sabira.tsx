@@ -27,8 +27,8 @@ const Sabira = () => {
           
         >
           <Tab icon={<MenuIcon />} iconPosition="start" label="ทั้งหมด" className={`${value === 0 && 'font-bold bg-sky-100'} `}/>
-          <Tab icon={<WineBar />} iconPosition="start" label="เครื่องดื่ม" className={`${value === 1 && 'font-bold'} `} />
-          <Tab icon={<LunchDiningIcon />} iconPosition="start" label="ทานเล่น" className={`${value === 2 && 'font-bold'} `} />
+          <Tab icon={<WineBar />} iconPosition="start" label="เครื่องดื่ม" className={`${value === 1 && 'font-bold bg-sky-100'} `} />
+          <Tab icon={<LunchDiningIcon />} iconPosition="start" label="ทานเล่น" className={`${value === 2 && 'font-bold bg-sky-100'} `} />
         </Tabs>
       </Box>
       {value === 0 ? (
